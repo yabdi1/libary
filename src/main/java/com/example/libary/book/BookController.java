@@ -18,7 +18,7 @@ public class BookController {
 
     @GetMapping("genre")
     public List<Book> findByGenre(){
-        return bookRepository.findBookByGenreIs("horror");
+        return bookRepository.findBookByGenreIs("Tragedy");
 
 
     }
